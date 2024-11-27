@@ -1,0 +1,29 @@
+.index1 {
+  z-index: -999;
+}
+.index2 {
+  z-index: 10;
+}
+.active-link {
+  font-weight: bold;
+  color: red; /* veya istediğiniz renk */
+}
+
+.normal-link {
+  color: rgb(204, 204, 204);
+}
+
+/*  Daha Fazla CSS  */
+
+nav .dropdown-menu {
+    background-color: #454545; 
+}
+
+.dropdown-item {
+  color: white; /* Menü linklerinin rengi */
+}
+
+.dropdown-item:hover {
+  background-color: #919191;
+  color: #000000; 
+}

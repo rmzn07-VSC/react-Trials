@@ -1,0 +1,81 @@
+.App{
+margin: 0;
+padding: 0;
+width: 100%;
+text-align: center;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+display: flex;
+}
+
+.todo-create {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 100%;
+}
+
+.todo-input{
+  width: 100%;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  outline: none;
+}
+
+
+.todo-create-button{
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: gold;
+  font-weight: 700; 
+  cursor: pointer;
+}
+
+.todo-icons{
+font-size: 25px;
+margin-top: 2px;
+margin-right:5px ;
+cursor: pointer;
+}
+
+.todoList{
+width: 100%;
+margin-top: 20px;
+
+}
+
+.ToDo{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+border: 1px solid lightgray;
+padding: 10px;
+margin-bottom: 5px;
+}
+
+.appOrta{
+  width: "500px";
+  display: "flex";
+  flex-direction: "column";
+  align-items: "center";
+  justify-content: "center";
+
+
+}
+
+.OrtaninAlti{
+width: 500px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+

@@ -1,0 +1,105 @@
+.app-container {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  margin: 50px auto;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 400px; /* Minimum yükseklik eklendi */
+}
+
+.form-container,
+.list-container {
+  width: 50%;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-container {
+  background-color: #c6e6f6; 
+  display: flex; /* Flexbox kullanımı */
+  flex-direction: column; /* Dikey yönlendirme */
+  align-items: center; /* Öğeleri ortala */
+  min-height: 300px; /* Minimum yükseklik eklendi */
+  justify-content: center; /* Öğeleri dikey olarak ortala */
+}
+
+.list-container {
+  background-color: #ffbebe;
+}
+
+.list-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  color:black;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  background-color: #eee;
+}
+
+.list-container button{
+  background-color: rgb(0, 178, 9);
+  
+}
+
+.list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-container li {
+  padding: 8px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color:black;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+  width: 100%;
+  color:black;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: white; /* Arka plan rengi beyaz olarak ayarlandı */
+}
+
+.form-container button {
+  background-color: #4CAF50; 
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*Kullanıcı Listesi öğelerinin görünürlüğü için */
+.list-container li {
+  color: rgb(0, 0, 0); /* Metin rengi siyah */
+}
+
+li:hover { /* Liste öğelerine mouse geldiğinde */
+  cursor: pointer; /* İmleci işaretçiye çevir */
+}
